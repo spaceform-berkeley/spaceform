@@ -1,0 +1,748 @@
+
+/*# sourceMappingURL=bootstrap.min.css.map */
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z11lFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z11lFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecnFHGPezSQ.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z11lFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z11lFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z11lFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z11lFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+  }
+
+
+  .subSection{
+
+    width: 50%;
+    font-size: 16px;
+    line-height: 1.5;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
+    border-radius: 20px;
+    background-color: #c7c4bf;  
+
+  }
+  
+  .subSection h3{
+    margin-left: 20px;
+    color: black;
+    text-align: left;
+    font-size: 25px;
+
+  }
+  .subSection h2{
+    margin-left: 20px;
+    color: black;
+    font-size: 50px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .subSection p{
+    margin: 20px;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+
+  }
+  .futureImage img{
+    display: flex;
+    margin: 10px;
+  }
+  html { scroll-behavior: smooth;}
+  #projects {
+
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    margin: 10px 0;
+  }
+  /* Add more styles here to make the website look nicer */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 40px 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  li {
+    font-size: 16px;
+    line-height: 1.4;
+    list-style: disc;
+    margin: 15px 0;
+  }
+  /* Add styles for the navigation menu */
+  /* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #fff;
+    top: 0;
+    position: fixed; 
+  }
+
+  .navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+  
+  .navbar-fixed-top.scrolled .nav-link {
+    color:#555;
+  } */
+
+  .logo {
+    height: 50%;
+    width: 50%;
+  }
+  /* nav .nav-items {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    padding-right: 100px;
+    padding-top: 30px;
+     align the nav items to the right
+  }
+  nav a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  } */
+
+
+  :root {
+    --base-padding: 3vw;
+    --white-25: rgba(255,255,255,.25);
+    --white-50: rgba(255,255,255,.5);
+  }
+  body {
+    align-items: center;
+    margin: var(--base-padding);
+    font-family: system-ui;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  section {
+    display: block;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+
+
+  
+  #rocket {
+    width: 40px;
+    height: 125px;
+    background:
+      linear-gradient(to right, transparent 45%, firebrick 45%, firebrick 55%, transparent 55%),
+      radial-gradient(circle at 50% 40%, rgba(255,255,255,1) 10%, #aaa 11%, #aaa 15%, transparent 16%),
+      linear-gradient(to right, transparent 50%, rgba(0,0,0,.1) 50%),    
+      linear-gradient(to bottom, firebrick 12%, transparent 12%),
+      lightgray;
+    background-size: 100% 40%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+    background-position: 50% 95%, 0 0, 0 0, 0 0, 0 0;
+    background-repeat: no-repeat;
+    border-radius: 50px 50px 50px 50px / 200px 200px 10px 10px;  
+    position: fixed;
+    bottom: 0;
+    left: calc(50% - 20px);
+    box-shadow: 0 15px 0 -5px #666;
+    filter: drop-shadow(0px -5px 2px rgba(0,0,0,.15));
+  }
+  
+  #rocket:before {
+    content:'';
+    width: 200%;
+    height: 50%;
+    position: absolute;
+    top: 55%;
+    left: -50%;
+    background: 
+      radial-gradient(circle at 50% 100%, transparent 50%, firebrick 51%);
+    clip-path: polygon(0% 0%, 25% 0%, 25% 100%, 75% 100%, 75% 0%, 100% 0%, 100% 100%, 0% 100%);
+    border-radius: 100% 100% 0 0;
+  }
+  #rocket:after {
+    content:'';
+    width: 60%;
+    height: 25%;
+    position: absolute;
+    top: 108%;
+    left: 20%;
+    background:
+      linear-gradient(to bottom, orangered, gold);
+    border-radius: 0 0 25% 25%;
+    filter: blur(2px);
+    opacity: .5;
+    animation: blast_off .25s linear infinite;
+  }
+  
+  @keyframes blast_off {
+    33% { 
+      background:
+        linear-gradient(to bottom, orangered 25%, gold 75%);
+    }
+    66% { 
+      background:
+        linear-gradient(to bottom, orangered 50%, gold 90%);
+    }
+  }
+  
+  
+  .shake_rocket {
+    animation: shake .1s linear infinite;
+  }
+  @keyframes shake {
+    25% { transform: translateX(-1px); }
+    75% { transform: translateX(1px); }
+  }
+  
+  #sky {
+    min-height: 200vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: 
+      radial-gradient(circle at 75% 24%, rgba(255,255,255,.5) .25%, transparent .25%),
+      radial-gradient(circle at 10% 23%, rgba(255,255,255,.25) .25%, transparent .25%),
+      radial-gradient(circle at 98% 29%, rgba(255,255,255,.25) .25%, transparent .25%),
+      radial-gradient(circle at 63% 10%, rgba(255,255,255,.25) .25%, transparent .25%),
+      radial-gradient(circle at 20% 6%, rgba(255,255,255,.25) .25%, transparent .25%),
+      radial-gradient(circle at 75% 5%, rgba(255,255,255,.25) .25%, transparent .25%),
+      radial-gradient(circle at 35% 15%, rgba(255,255,255,.25) .25%, transparent .25%),
+      radial-gradient(circle at 94% 10%, rgba(255,255,255,.25) .25%, transparent .25%),
+      radial-gradient(circle at 55% 30%, rgba(255,255,255,.25) .25%, transparent .25%),
+      radial-gradient(circle at 4% 40%, rgba(255,255,255,.25) .25%, transparent .25%),
+      radial-gradient(circle at 91% 35%, rgba(255,255,255,.25) .25%, transparent .25%),
+      radial-gradient(circle at -1% 3%, rgba(0,0,0,.15) 2%, transparent 2.5%),
+      radial-gradient(circle at 11% 6.5%, rgba(0,0,0,.15) 1%, transparent 1.5%),
+      radial-gradient(circle at 15% 0%, rgba(0,0,0,.15) 2%, transparent 2.5%),
+      radial-gradient(circle at 5% 8%, rgba(0,0,0,.15) 2%, transparent 2.5%),
+      radial-gradient(circle at -5% -5%, rgba(255,255,255,.15) 9%, transparent 10%),
+      radial-gradient(circle at 0% 0%, #888 10%, transparent 12%),
+      linear-gradient(to top, lightblue, darkblue);
+      /* linear-gradient(to top, biege, #306); */
+      z-index: -1;
+  }
+  
+  #exhaust {
+    width: 400px;
+    height: 100px;
+    position: fixed;
+    bottom: -50px;
+    left: calc(50% - 200px);
+    opacity: 0;
+    transition-origin: 50% 100%;
+    transition: 1s;
+  }
+  #exhaust:after {
+    content: '';
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:
+      radial-gradient(circle at 20% 90%, white 50px, transparent 51px),
+      radial-gradient(circle at 35% 115%, white 50px, transparent 51px),
+      radial-gradient(circle at 50% 135%, white 50px, transparent 51px),
+      radial-gradient(circle at 65% 115%, white 50px, transparent 51px),
+      radial-gradient(circle at 80% 90%, white 50px, transparent 51px);
+    filter: blur(1px) drop-shadow(0px -5px rgba(0,0,0,.025));
+    animation: shake .1s linear infinite;
+  }
+  
+  .exhaust {
+    opacity: 1 !important;
+    bottom: 0 !important;
+  }
+  .scrollTextGradientH1 {
+    text-align: center;
+    display: inline-block;
+    font: bold 4.5em/1.5 Bebas, sans-serif;
+    color: #000000; /*non-webkit fallback*/
+    font-size: 90px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient( #ffffff, #000000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+  }
+  .scrollTextGradientP {
+    text-align: center;
+    display: inline-block;
+    font: bold 4.5em/1.5 Bebas, sans-serif;
+    color: #000000; /*non-webkit fallback*/
+    font-size: 15px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient( #ffffff, #000000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+  }
+  
+  footer {
+    background-color: white;
+    padding: 50px;
+    border-width: 100px;
+    border: white;
+    margin: 0px;
+    width: 100%;
+  }
+
+
+  .joinUsButtonContainer {
+    height: 200px;
+    position: relative;
+    background: black;
+  }
+  
+  .joinUsButtonCenter {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .buttonspan{
+    white-space: nowrap;
+   text-align: center;
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+  }
+  .buttonspan a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .buttonspan a:before,
+  .buttonspan a:after{
+    position: absolute;
+    content: "Join Us!";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .buttonspan a:before{
+    color: #fff;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  .buttonspan a:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  .buttonspan a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+  .scrolldown {
+    
+    --color: white;
+    --sizeX: 30px;
+    --sizeY: 50px;
+    position: relative;
+    width: var(--sizeX);
+    height: var(--sizeY);
+    margin-left: var(sizeX / 2);
+    border: calc(var(--sizeX) / 10) solid var(--color);
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+  }
+  
+  .scrolldown::before {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: var(--color);
+    border-radius: 100%;
+    animation: scrolldown-anim 2s infinite;
+    box-sizing: border-box;
+    box-shadow: 0px -5px 3px 1px #ffffff66;
+  }
+  
+  @keyframes scrolldown-anim {
+    0% {
+      opacity: 0;
+      height: 6px;
+    }
+    40% {
+      opacity: 1;
+      height: 10px;
+    }
+    80% {
+      transform: translate(0, 20px);
+      height: 10px;
+      opacity: 0;
+    }
+    100% {
+      height: 3px;
+      opacity: 0;
+    }
+  }
+  .chevrons {
+    padding: 6px 0 0 0;
+    margin-left: -3px;
+    margin-top: 48px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chevrondown {
+    margin-top: -6px;
+    position: relative;
+    border: solid var(--color);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+  }
+  .chevrondown:nth-child(odd) {
+    animation: pulse 500ms ease infinite alternate;
+  }
+  .chevrondown:nth-child(even) {
+    animation: pulse 500ms ease infinite alternate 250ms;
+  }
+  @keyframes pulse {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 0.5;
+    }
+  }
+  mark {
+    -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+            animation: 1.5s highlight .5s 1 normal forwards;
+    background-color: none;
+    background: linear-gradient(90deg, lemonchiffon 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+  
+  @-webkit-keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+  
+  @keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+   /* Responsive design */
+    @media (max-width: 600px) {
+      .section {
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .section img {
+        width: 100%;
+      }
+    }
+    /* Styling for the sections */
+    .section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 25%;
+    }
+    .section img {
+      width: 200px;
+      border-radius: 10%;
+      padding-right: 10px;
+    }
+    /* Hover effect for the overlay image */
+    .overlay {
+      position:relative;
+      width: 20%;
+      height: 20%;
+      opacity: 0;
+      transition: 0.5s ease;
+    }
+    .section:hover .overlay {
+      opacity: 1;
+    }
+    .overlay img {
+      width: 100%;
+    }

@@ -63,6 +63,6 @@ window.addEventListener("scroll", function() {
   if (scroll > 50) {
     document.querySelector("nav").style.backgroundColor = "white";
   } else {
-    document.querySelector("nav").style.backgroundColor = "transparent";
+    document.querySelector("nav").style.backgroundColor = "white";
   }
 });

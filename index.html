@@ -7,33 +7,75 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
       /* Styling for the navigation bar */
+      #about{
+
+      }
+      #contact{
+
+      }
+      .header-bg {
+        background-image: url('ThinkOrbital-TP-3-Strarship-render-scaled.jpeg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* take up the full height of the screen */
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      .headerText {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 4px black;
+        font-size: 800%;
+      }      
+
+      @media only screen and (max-width: 600px) {
+        .header-bg {
+          height: 80vh; /* adjust the height on smaller screens */
+        }
+        .headerText {
+          font-size: 1.5em; /* adjust the font size on smaller screens */
+        }
+      }
       
     </style>
   </head>
   <body>
     <nav class="navbar">
-        <a class = "right" href="#top">Home</a>
-        <a  class = "right" href="#projects">Projects</a>
+        <a class = "right" href="#contact">Contact Us</a>
         <a class = "right" href="https://forms.gle/2UdnMo3ra3Hpjn6GA">Join Us</a>
+        <a class = "right" href="team.html">Team</a>
+        <a  class = "right" href="#projects">Projects</a>
+        <a class = "right" href="#about">About</a>
+        <a class = "right" href="#top">Home</a>
+        <a><img class="logo" style = "display: flex; justify-content: center; padding-left: 1vw;"src="logo.png" alt="Logo"/></a>
       <!-- </div> -->
     </nav>
 
     <!-- Header Area -->
+    <!-- <br>
     <br>
     <br>
-    <br>
-    <br>
-    <img data-aos="fade-down" style="align: center" class="logo" src="logo.png" alt="Logo"/>
+    <br> -->
+    <!-- <img data-aos="fade-down" style="align: center" class="headerImage" src="image (1).png" alt="Logo"/> -->
     <!-- <h1 class = "scrollTextGradientH1", style="text-align: center;">Welcome to SpaceForm</h1> -->
+    <!-- <br>
+    <br> -->
+    <!-- <img data-aos="fade-down" style = "float: left;"src="450px-Future_Moon_base.jpeg" alt=""> -->
+    <div class="header-bg">
+      <h1 class="headerText" data-aos="fade-up">Spaceform at Berkeley</h1>
+      <p data-aos="fade-up" style="color: white; font-size: 200%;">Forming our future in space by furthering in Space Manufacturing and Aerospace materials</p>
+      <!-- <p style="color: white;font: sans-serif;font-size: 30px;">SpaceForm is a UC Berkeley club focusing on innovating in-space manufacturing.</p> -->
+    </div>
     <br>
     <br>
-    <p data-aos="fade-down" class = "", style="color: black;text-align: center;font: sans-serif;font-size: 30px;">Forming our Future in Space by Furthering In-Space Manufacturing and Aerospace Materials.</p>
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <div class='scrolldown' style="--color:black">
+    <div class='scrolldown' style="--color:white">
       <div class="chevrons">
         <div class='chevrondown'></div>
         <div class='chevrondown'></div>
@@ -43,27 +85,19 @@
     <div id='exhaust'></div>
     <div id='sky'></div>
     
-    <section>
-      <section></section>
-      <div class = "contentBox" style="display: flex; padding-bottom: 50px;  flex-wrap: wrap; align-items: center;" data-aos="fade-up">
+    <section class = "sectionSplit">
+      <div id = "about" class = "contentBox" style="display: flex; padding-bottom: 50px;  flex-wrap: wrap; align-items: center;" data-aos="fade-up">
         <img float="right"class = "futureImage" src="https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/639906/astronauts-standing-near-a-factory-on-the-moon-looking-at-planet-earth.jpg&w=500&op=resize" alt="">
         <div float="left" class = "subSection" data-aos="fade-up" >
           <h2>About</h2>
-          <p>SpaceForm is a club that was established in 2022, with a goal of furthering the in-space manufacturing industry, an 
-            industry that will play a large role in our econamy over the next few years. Our goal is to help bulid the 
-            foundations for success for research to be done. We are currently working closely with different professors on campus 
-            in order to understand how we can have the most impact. Currently we are working on creating the worlds 
-            first database of materials in lunar conditions, which will lay the ground work for the next hundred years 
-            of space innovation.</p>
+          <p>Established in 2022, SpaceForm is a student organization that aims to advance the frontiers of aerospace materials and in-space manufacturing, an industry that will play a large role in commercial space over the next decade. With a dedicated team of UC Berkeley undergraduates and cutting-edge projects at the forefront of materials science, computing, and engineering, our goal is to help build the foundations for success for space research. Working closely with Professors and organizations on campus, our goal is to help create the world’s first comprehensive database of materials in lunar conditions, laying the ground work for the next hundred years of space innovation.</p>
         </div>
       </div>
-      <div id = "projects"></div>
-      <div class = "contentBox" style="display: flex; padding-bottom: 50px;  flex-wrap: wrap; align-items: center;" data-aos="fade-up">
+      <div id = "projects" class = "contentBox" style="display: flex; padding-bottom: 50px;  flex-wrap: wrap; align-items: center;" data-aos="fade-up">
         <div style="float: left;" class = "subSection">
             <h2>Spring 2023 Project</h2>
             <h3><mark>First database for materials in lunar conditions</mark></h3>
-            <p>During our first semester, we are creating a tool that allows researchers and other professional in the Space and In Space Manufacturing
-              to find materials that fit the situations that they need when creating technologies for in-space manufacturing.
+            <p>Our goal is to create a material database for lunar conditions. This tool aids researchers and other professionals in the aerospace industry in better understanding material behavior in space environments and in selecting materials for technological innovation pertaining to in-space manufacturing.
             </p>
           </div>
           <img class = "futureImage" style="width: 500px; float: right;" src="https://www.azom.com/images/Article_Images/ImageForArticle_12034(1).jpg" alt="">
@@ -81,7 +115,7 @@
     <!--  -->
   
 
-    <footer>
+    <footer id="contact">
       <h3 style="text-align: left;">Contact Us:</h1>
       <p>Email: spaceform@ocf.berkeley.edu <br>
           Phone: (714) 204-8266 <br></p>
